@@ -25,7 +25,7 @@ int main()
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
     glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
 
-    GLFWwindow* window = glfwCreateWindow(600, 600, "sample 2", nullptr, nullptr);
+    GLFWwindow* window = glfwCreateWindow(600, 600, "Sample 002", nullptr, nullptr);
     glfwMakeContextCurrent(window);
 
     if (gl3wInit())
